@@ -7,7 +7,7 @@ This work is licensed under the MIT license, meaning it can be used just about h
 ## Setup
 This repository includes example files that can be loaded and viewed immediately. Just include the web folder in the same domain as the `publications_page.php` file. To customize for yourself, you'll need to replace the BibTeX file and dummy PDF files.
 
-To see how this looks on a live website, you can visit the author's own webpage [here](https://www.people.clemson.edu/jhmrrs/).
+To see how this looks on a live website, you can visit the author's own webpage [here](https://www.people.clemson.edu/jhmrrs/publications).
 
 ### Website Structure
 - `publications_page.php`: a minimalistic HTML page that calls the PHP parser.
