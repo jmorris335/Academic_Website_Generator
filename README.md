@@ -1,8 +1,8 @@
 # Academic Website Generator
-This repository provides a PHP script for generating a list of publications and links from a Biblatex file.
+This repository provides a PHP script for generating a list of publications and links from a BibTeX file.
 
 ## License
-This work is licensed under the MIT license, meaning it can be used just about however you want. Specific details are in the license file.
+This work is licensed under the MIT license, meaning it can be used just about however you want. Specific details are in the license file. This license does not apply to the PDF files or `library.bib` file included as demonstrations (anything in the `web/assets` folder).
 
 ## Setup
 This repository includes example files that can be loaded and viewed immediately. Just include the web folder in the same domain as the `publications_page.php` file. To customize for yourself, you'll need to replace the BibTeX file and dummy PDF files.
@@ -18,7 +18,7 @@ To see how this looks on a live website, you can visit the author's own webpage 
   - `js/app.js`: contains code for the toggle links (making elements appear and disappear from the screen when clicked on).
   - `php/bib_scraper.php`: the PHP script that parses the BibTeX file, returning the HTML for displaying all the publications.
 
-#### Helpful Tips
+### Helpful Tips
 The easiest way to create the BibTeX file is to use Zotero. I make a unique library containing all the references for things that should go on the publications page: articles, presentations, tools, etc. This folder is exported as a bibtex file using the BetterBibtex plugin. This makes a nice bib file that Zotero will keep updated, so that anytime I make changes to the my Zotero source it updates on the bib file. I personally use the BetterBibLaTex version of the export rather than BetterBibTex because BibLaTex is better suited for grabbing information like venues and dates. If you use this script without making any changes you'll need to use that form as well.
 
 ## Process
