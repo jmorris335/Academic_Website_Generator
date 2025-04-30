@@ -1,0 +1,93 @@
+:root {
+    --primary_color: #008855;
+    --secondary_color: #fafafa;
+    --tertiary_color: #5264a8;
+    --accent_color: DodgerBlue;
+    --clash_color: #ed8e00;
+    --text_color: Black;
+    --subtle_text_color: #303030;
+    --subtle_background_color: #f0faff
+  }
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: calc(8px + 1.5625vw);
+    padding-top: 100px;
+    max-width: 1040px;
+    font-family: STIX Two Text, serif, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    background-color: var(--secondary_color)
+}
+button:hover {
+    cursor: pointer;
+    color: var(--tertiary_color);
+}
+a {
+    color: var(--accent_color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--tertiary_color);
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--text_color);
+    font-size: 28px;
+    color: var(--primary_color);
+    font-weight: bold;
+}
+h2 {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    color: var(--primary_color);
+    font-size: 22px;
+    font-weight: bold;
+}
+h3 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: var(--text_color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.label {
+    color: var(--secondary_color);
+    margin: 4px 8px;
+    padding: 3px 2px;
+    background-color: var(--clash_color);
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+/* Toggle features */
+.toggleButton {
+    margin: 0pt 8pt 0pt 0pt;
+    padding: 0pt;
+    border: none;
+    font-family: 'Helvetica', 'sans-serif';
+    background-color: transparent;
+    font-size: 12pt;
+    font-weight: bold;
+    color: var(--accent_color);
+}
+.toggleDiv {
+    display: none;
+}
+div.bibtex {
+    font-family:'Monaco', Courier, monospace;
+    color: var(--subtle_text_color);
+    font-size: 10pt;
+    background-color: var(--subtle_background_color);
+    padding: 10pt;
+    margin: 10pt 0pt;
+}
+div.abstract {
+    margin: 10pt 0pt;
+    font-size: 11pt;
+}

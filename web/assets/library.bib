@@ -1,0 +1,65 @@
+@software{morrisConstraintHg2024,
+  title = {{{ConstraintHg}}},
+  author = {Morris, John},
+  date = {2024-11-23},
+  doi = {10.5281/zenodo.15278018},
+  abstract = {Python package providing a kernel for model-based engineering with constraint hypergraphs.},
+  version = {0.2.2},
+  keywords = {exp:tool},
+  annotation = {Description: Python package providing a kernel for model-based engineering with constraint hypergraphs.}
+}
+
+@article{morrisConstraintHypergraphsUnifying2025,
+  title = {Constraint {{Hypergraphs}} as a {{Unifying Framework}} for {{Digital Twins}}},
+  author = {Morris, John and Louis, Edward and Van Bossuyt, Douglas L. and Mocko, Gregory and Wagner, John},
+  date = {2025},
+  journaltitle = {[Manuscript intended for submission to the Journal of Computing and Information Science in Engineering]},
+  abstract = {Digital twins, though lauded, have underserved as tools for understanding the physical world due to their lack of interoperability; their complex, bespoke nature making them difficult to connect, redeploy, or modify. This paper answers the call for a unifying framework by outlining a declarative, graphical modeling framework that represents system behavior through the composition of set functions. The basis for the framework derives from behavioral systems theory, which supports the interpretation of a digital twin as two coupled systems that share behavior so that properties of one are observable from the other. Interoperability is addressed by encoding the twinned system behavior in a model structure providing universal simulation. A case study involving the development of a digital twin for a micro-energy grid demonstrates the extensibility provided by the framework, allowing digital twins to be redeployed into independent ecosystems or combined into system of systems digital twin aggregates.},
+  langid = {english},
+  keywords = {exp:inprogress}
+}
+
+@inproceedings{morrisDeclarativeIntegrationCAD2025,
+  title = {Declarative {{Integration}} of {{CAD Software}} into {{Multi-Physics Simulation}} via {{Constraint Hypergraphs}}},
+  booktitle = {Proceedings of the {{ASME}} 2025 {{International Design Engineering Technical Conferences}} and {{Computers}} and {{Information}} in {{Engineering Conference}}},
+  author = {Morris, John and Mocko, Gregory and Wagner, John and Ramnath, Satchit},
+  date = {2025-08-17/2025-08-20},
+  location = {Anaheim, CA},
+  abstract = {Declarative modeling frameworks, such as Modelica, are often used to represent systems that require reusable and interoperable models. Simulation in such a framework requires a solver that is capable of transforming the model into an executable process.  However, most declarative solvers are insular, in that they are unable to integrate with software applications needed for simulating complex systems, limiting their usability for simulating multi-domain models. This paper describes a process for creating declarative models that can integrate with an external tool by deconstructing its Application Programmer Interface (API) into a set of functions arranged into a constraint hypergraph. The constraint hypergraph's solver is shown to be capable of automatically parsing these functions to simulate arbitrary pairs of inputs and outputs. The result is a holistic modeling framework that allows for flexible simulation of a complex system, integrates directly with otherwise sequestered platforms, and reveals cross-cutting interactions between system elements. This is demonstrated by integrating the solid modeling capabilities of Onshape with a dynamic model of a crankshaft from a piston engine, showing how a geometric model can be integrated with independently-defined dynamic models. This validates the framework on a limited scale, setting the foundation for work for fully integrating disparate tools into multi-domain, multi-physics modeling and simulation.},
+  eventtitle = {{{ASME IDETC-CIE}} 2025 Conference},
+  keywords = {exp:conference}
+}
+
+@article{morrisEffectsFunctionalDeclarative2025a,
+  title = {Effects of {{Functional}} and {{Declarative Modeling Frameworks}} on {{System Simulation}}},
+  author = {Morris, John and Mocko, Gregory and Wagner, John},
+  date = {2025},
+  journaltitle = {[Manuscript submitted for review to the ASME Journal of Dynamic Systems, Measurement and Control]},
+  abstract = {System modeling frameworks can be categorized into imperative and declarative paradigms. Which paradigm a model is expressed in effects how the model may be utilized; imperative models allow simple execution, while declarative models capture the behavior of the underlying system. This paper compares these paradigms, as well as functional and object-oriented frameworks, in light of physics-based systems. This is done by exploring the principles of systems modeling and simulation. Simulation is shown to be the composition of functions representing system behavior. Simulatable frameworks can be differentiated by their ability to identify and compose these functions for a specific input and output pairing. The various frameworks are explored, applying concepts more typically studied in computer science to general systems engineering. The frameworks are investigated by comparing simulations of a driven double pendulum in various modeling languages. Observations include that functional, declarative models allow for greater reusability and holistic system simulation.},
+  keywords = {exp:journal}
+}
+
+@unpublished{morrisModelBasedEngineeringDigital2025,
+  type = {Poster},
+  title = {Model-{{Based Engineering}} of {{Digital Twins}}},
+  author = {Morris, John},
+  date = {2025-02-26},
+  eventtitle = {{{VIPR-GS Research Center Annual Review Meeting}}},
+  venue = {Greenville, SC},
+  keywords = {exp:presentation},
+  annotation = {Distinction: Best Poster, Virtual Protyping and Design}
+}
+
+@article{morrisUnifiedSystemModeling2025,
+  title = {Unified {{System Modeling}} and {{Simulation}} via {{Constraint Hypergraphs}}},
+  author = {Morris, John and Mocko, Gregory and Wagner, John},
+  date = {2025-04-04},
+  journaltitle = {JCISE},
+  volume = {[In Press]},
+  doi = {10.1115/1.4068375},
+  abstract = {This paper describes the theory behind constraint hypergraphs: a novel modeling framework that can be used to universally represent and simulate complex systems. Multi-domain system models are traditionally compiled from many diverse frameworks, each based in a single domain. Incompatibilities between these frameworks prevent information from being shared resulting in data silos, duplicate work, and knowledge gaps. A constraint hypergraph addresses these problems by providing a universal modeling framework within which all model prescriptions can be expressed. This methodology expands mathematical structures previously explored in abstract mathematics and systems theory into a new executable framework. Each hypergraph expresses the holistic behavior of a system in a declarative paradigm that describes the relationships between system properties. In addition to modeling, it is shown how constraint hypergraphs can be used for universal, cross-cutting simulation through principles of function composition. The theoretical framework of a constraint hypergraph is demonstrated with a practical representation of a hybrid system, combining a discrete-event simulation and continuous PID controller into a single model of an elevator lift system.},
+  issue = {Special Issue on Networks and Graphs for Engineering Systems and Design},
+  langid = {english},
+  keywords = {exp:journal},
+  annotation = {Video: https://www.youtube.com/embed/nQaxbmd1yds?si=3GMBrrvWtDT-\_zfB}
+}
